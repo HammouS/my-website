@@ -1,0 +1,18 @@
+*{
+    color: rgb(43, 77, 4);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+main{
+    line-height: 1.5em;
+}
+ul{
+    font-style: italic;
+} 
+ #about-pep{
+    color: rgb(68, 9, 128);
+}
+.begin-text{
+    color: rgb(68, 9, 128);
+    font-weight: bolder;
+}
