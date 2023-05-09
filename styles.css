@@ -49,6 +49,9 @@ header img{
 main section ul{
     text-indent: 1em;
 }
+main h3{
+    padding-top: .5em;
+}
 .column {
     float: left;
     width: 20%;
