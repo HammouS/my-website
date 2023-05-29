@@ -31,11 +31,16 @@ body {
 }
 
 /* for header */
+@font-face{
+	font-family: Murach;
+	src: url("GILSANUB.TTF");
+}
 header {
     grid-area: head;
 }
 
 header h1 {
+    font-family: Murach;
     text-align: center;
     font-size: 200%;
     border-top: 3px solid rgb(0, 0, 0);
@@ -51,22 +56,36 @@ header h1 {
 header h2 {
     text-align: center;
 }
+header h3{
+    text-align: center;
+}
 
 header img {
-    float: left;
-    margin: .5em 0 1em 1em;
-    border: 1px solid black;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    min-width: 300px;
+    min-height: 250px;
     max-width: 40%;
-    min-width: 150px;
-
+    max-height:35%;
 }
 
 /* for main */
 /* For multi platform scaling*/
 @media only screen and (max-width: 445px) {
     header img{
-        min-width:100px;
+        min-width:50px;
         max-width: 30%;
+        float:left;
+    }
+}
+@media only screen and (max-width: 445px) {
+    main p {
+        text-align: stretch;
+    }
+    main section ul {
+        float:left;
+        text-align:wrap;
     }
 }
 
@@ -101,10 +120,6 @@ header img {
 .topnav a.active {
     background-color: #04AA6D;
     color: white;
-}
-
-main section ul {
-    text-indent: 1em;
 }
 
 main h3 {
