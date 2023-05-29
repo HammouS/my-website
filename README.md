@@ -1,1 +1,3 @@
 # my-website
+theme: minima
+
