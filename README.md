@@ -1,3 +1,2 @@
 # my-website
-theme: minima
 
