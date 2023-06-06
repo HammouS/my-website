@@ -1,5 +1,5 @@
 * {
-    color: rgb(43, 77, 4);
+    color: rgb(68, 9, 128);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 
 }
@@ -14,6 +14,7 @@ ul {
 
 #about-pep {
     color: rgb(68, 9, 128);
+    
 }
 
 .begin-text {
@@ -23,11 +24,16 @@ ul {
 
 /* for body */
 body {
-    display: grid;
-    grid-template: repeat(3, auto) / 1fr;
-    grid-template-areas: "head" "nav" "body" "foot";
-    grid-area: body;
-    width: 100%;
+    background-image:
+    linear-gradient(-45deg, #4c7550 20%, #84bace 100%);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 110%;
+    height: 100%;
+    color: #01161e;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
 }
 
 /* for header */
@@ -54,13 +60,16 @@ header h1 {
 }
 
 header h2 {
-    text-align: center;
+    padding-left: 40%;
+    font-family: Murach;
 }
 header h3{
     text-align: center;
 }
 
 header img {
+    padding-right:50px;
+    float: left;
     display:block;
     margin-left:auto;
     margin-right:auto;
@@ -101,6 +110,8 @@ header img {
     justify-content: space-evenly;
     flex-basis: 100%;
     grid-area: nav;
+    margin-bottom: 20px;
+    margin-top:-20px;
 }
 
 .topnav a {
@@ -113,7 +124,7 @@ header img {
 }
 
 .topnav a:hover {
-    background-color: #ddd;
+    background-color: rgb(68, 9, 128);
     color: black;
 }
 
@@ -128,23 +139,29 @@ main h3 {
 
 .column {
     float: none;
-    width: 20%;
+    width: 40%;
 }
 
 .row:after {
     content: "";
-    display: table;
+    display: block;
     clear: both;
 }
 
 /* for section */
+section h3{
+    font-family: Murach;
+}
+@media only screen and (max-width: 490px) {
+  section p {
+    word-wrap:break-word;
+    margin:none;
+  }
+}
 section p {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    flex-basis: 100%;
-    text-indent: 10px;
-    ;
+  margin-left: 20em;
+  display: inline;
+  
 
 }
 
