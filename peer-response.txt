@@ -1,0 +1,38 @@
+ I wish you could have add more photo about your pet to have more compelling content towards to texted information. - Hassan
+
+ I also really enjoy the font you used in the header, and I might suggest implementing that font elsewhere in your website since it is super cute. I did find that once I scaled down your website to mobile sizes, the links on the bottom started to become hard to read, so I think that if made it so the text and links were vertical once scaled down enough then you would be able to read them easier. -Michael
+
+
+
+
+
+
+
+
+Added media query for 490 to fix the links at the bottom of the screen and gave it a text wrap ability.
+changed textfont in multiple areas so its "cuter" (Murach font)
+Added more photots of pepper on "pics" page
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
