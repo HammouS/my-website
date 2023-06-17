@@ -1,3 +1,79 @@
+/* Body design for all 3 pages */
+body {
+    background-image:
+    linear-gradient(-45deg, #4c7550 20%, #84bace 100%);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 110%;
+    height: 100%;
+    color: #01161e;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+}
+/* Mobile menu and navigation bar */
+#mobile_menu {
+    display: none;
+}
+
 .topnav {
-    
+    background-color: #333;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-basis: 100%;
+    grid-area: nav;
+    margin-bottom: 20px;
+    margin-top:10px;
+}
+
+.topnav a {
+    float: none;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: rgb(68, 9, 128);
+    color: black;
+}
+
+.topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+}
+/* Header for her origin */
+header{
+    text-align: center;
+    color: rgb(68, 9, 128);
+}
+main img{
+    padding-right:50px;
+    float: none;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    min-width: 300px;
+    min-height: 250px;
+    max-width: 40%;
+    max-height:35%;
+}
+/* Dont copy my stuff grrr */
+footer {
+    padding-top: 1em;
+    text-align: center;
+    border-top: 3px solid rgb(0, 0, 0);
+    border-bottom: 3px solid rgb(0, 0, 0);
+    padding: 1.5em 0 2em 0;
+    border-bottom: 3px solid rgb(0, 0, 0);
+    background-image: -moz-linear-gradient(30deg, #f6bb73 0%, #f6bb73 30%, #f6bb73 80%, #f6bb73 80%, rgb(255, 255, 255) 100%);
+    background-image: -webkit-linear-gradient(30deg, #f6bb73 0%, #f6bb73 30%, #f6bb73 80%, #f6bb73 80%, rgb(255, 255, 255) 100%);
+    background-image: -o-linear-gradient(30deg, #f6bb73 0%, #f6bb73 30%, #f6bb73 80%, #f6bb73 80%, rgb(255, 255, 255) 100%);
+    background-image: linear-gradient(30deg, #f6bb73 0%, #f6bb73 30%, #f6bb73 80%, #f6bb73 80%, rgb(255, 255, 255) 100%);
+
+    grid-area: foot;
 }
